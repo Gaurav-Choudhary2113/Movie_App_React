@@ -26,7 +26,7 @@ function App() {
         <input
           placeholder="Search for Movies"
           value={serachTerm}
-          onChange={(e) => rmsetSearchTe(e.target.value)}
+          onChange={(e) => setSearchTerm(e.target.value)}
         />
         <img
           src={SerachIcon}
